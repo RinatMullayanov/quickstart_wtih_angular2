@@ -22,4 +22,5 @@ var MyAppComponent = (function () {
     ], MyAppComponent);
     return MyAppComponent;
 })();
+angular2_1.bootstrap(MyAppComponent);
 //# sourceMappingURL=app.js.map

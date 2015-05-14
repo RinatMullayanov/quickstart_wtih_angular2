@@ -2,15 +2,17 @@
 import {Component, View, bootstrap} from 'angular2/angular2';
 // Annotation section
 @Component({
-  selector: 'my-app'
+  selector: 'my-app' // Defines the <my-app></my-app> tag
 })
 @View({
-  template: '<h1>Hello {{ name }}</h1>'
+  template: '<h1>Hello {{ name }}</h1>' // Defines the inline template for the component, you can use an external template, specify a templateUrl property
 })
 // Component controller
 class MyAppComponent {
   name: string;
   constructor() {
-    this.name = 'Alice';
+    this.name = 'Alice'; // binding
   }
 }
+
+bootstrap(MyAppComponent);

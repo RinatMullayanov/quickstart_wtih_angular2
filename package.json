@@ -1,0 +1,21 @@
+{
+  "name": "quickstart_with_angular2",
+  "version": "0.0.1",
+  "description": "quickstart with Angular 2 https://angular.io/docs/js/latest/quickstart.html",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RinatMullayanov/quickstart_wtih_angular2.git"
+  },
+  "keywords": [
+    "angular2"
+  ],
+  "author": {
+    "name": "Rinat Mullayanov",
+    "email": "nutsgamedev@gmail.com"
+  },
+  "license": "MIT"
+}
