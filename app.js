@@ -6,6 +6,9 @@ if (typeof __decorate !== "function") __decorate = function (decorators, target,
         case 4: return decorators.reduceRight(function(o, d) { return (d && d(target, key, o)) || o; }, desc);
     }
 };
+if (typeof __metadata !== "function") __metadata = function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
 /// <reference path="typings/angular2/angular2.d.ts" />
 var angular2_1 = require('angular2/angular2');
 var MyAppComponent = (function () {
@@ -18,7 +21,8 @@ var MyAppComponent = (function () {
         }),
         angular2_1.View({
             template: '<h1>Hello {{ name }}</h1>'
-        })
+        }), 
+        __metadata('design:paramtypes', [])
     ], MyAppComponent);
     return MyAppComponent;
 })();
